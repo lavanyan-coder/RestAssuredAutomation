@@ -1,0 +1,40 @@
+How to Execute Framework
+-----------------------
+1.TestNg.xml
+2.Pom.xml  -- maven compiler and maven surefire plugins are required to run
+3.Command prompt --- maven must be installed in the OS as a software
+4.run.bat
+--
+create run.bat file
+go to project location in windows and create a text file and name as run.bat
+then type cmd commands
+---cd project location
+----mvn clean install
+and save.
+can run this file to execute the project
+5.Jenkins -- CI
+--
+DevOPs team will make a build of the overall code from Dev team using maven.
+They will take the overall automation TCs of QA team and run against the build using Jenkins
+Only if the TCs are successful the build will be released.
+TCs are executed seemlessly in Jenkins.
+
+Execution thr Jenkins
+---
+Jenkins is installed on build server (DevOPs team)and minimal access given to QA
+
+
+for practice purposes
+--download jenkins
+
+
+Phases
+------
+1.Design and Development
+2.Execution
+3.Maintenance  ----Git n Github
+
+
+
+
+
